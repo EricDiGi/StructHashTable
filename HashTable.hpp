@@ -1,3 +1,11 @@
+/***************************************************************
+  Student Name: Eric DiGioacchino
+  File Name: HashTable.hpp
+  Assignment number : PROJECT 1
+
+  File defines two classes, HashTable and LinkedLists.
+  Also defines Node as a struct.
+***************************************************************/
 #ifndef HashTable_HPP
 #define HashTable_HPP
 

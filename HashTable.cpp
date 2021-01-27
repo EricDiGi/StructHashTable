@@ -1,3 +1,12 @@
+/***************************************************************
+  Student Name: Eric DiGioacchino
+  File Name: HashTable.cpp
+  Assignment number : PROJECT 1
+
+  File defines two classes, used to fully define a Hash table.
+  Hash Table provides Hash table operations and structure.
+  LinkedList structures nodes and manages their operations.
+***************************************************************/
 #include <iostream>
 #include <string>
 
