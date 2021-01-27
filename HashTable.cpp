@@ -42,6 +42,7 @@ void HashTable::insertEntry(string uid, string pword){
 
 LinkedList::LinkedList(){
     this->head = NULL;
+    this->bucketId = "0";
 }
 
 LinkedList::LinkedList(string id, Node* n){
@@ -55,9 +56,7 @@ LinkedList::~LinkedList(){
 
 
 void LinkedList::push(std::string UID, std::string pword){
-    Node* n = new Node;
-    n->uid = UID;
-    n->pword = pword;
+    struct Node* n = new Node{UID, pword};
 
     if(this->head == NULL){
         this->head = n;
